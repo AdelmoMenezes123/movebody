@@ -1,0 +1,39 @@
+<svg width="361" height="50" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip0">
+   <rect width="250" height="50" fill="white" id="svg_1"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" clip-path="url(#clip0)" id="svg_2">
+   <path stroke="null" d="m105.307,24.37175l-3.622,17.63139l-9.4366,0l3.6223,-17.63139c0.2839,-1.38584 0.1193,-1.6413 -1.2178,-1.6413l-3.4066,0c-1.3286,0 -1.6068,0.25546 -1.8878,1.606c0,0 0,0.02353 0,0.0353l-3.6223,17.63139l-9.4448,0l3.6252,-17.63139c0.2839,-1.38584 0.1192,-1.6413 -1.2207,-1.6413l-3.4066,0c-1.3399,0 -1.6096,0.25832 -1.8934,1.6413l-3.6252,17.63139l-9.4362,0l5.5612,-27.06518l7.6648,0l1.215,2.32543c0.699,-0.76119 1.545,-1.36157 2.4831,-1.76225c0.9381,-0.40068 1.9472,-0.59254 2.9618,-0.56318l1.9559,0c3.6905,0 6.1801,1.6589 7.0715,4.46292c1.6493,-3.1182 4.0396,-4.46292 6.9267,-4.46292l1.9585,0c5.544,0 8.363,3.70247 7.174,9.43378l0,0.00001z" fill="#5965e0" id="svg_3"/>
+   <path stroke="null" d="m134.084,24.37164l-1.684,8.19772c-1.178,5.73131 -5.521,9.43368 -11.071,9.43368l-7.148,0c-5.542,0 -8.361,-3.70533 -7.182,-9.43664l1.683,-8.19475c1.175,-5.73131 5.519,-9.43378 11.071,-9.43378l7.16,0c5.53,0 8.352,3.70247 7.171,9.43378l0,-0.00001zm-9.445,0c0.284,-1.38584 0.119,-1.6413 -1.218,-1.6413l-3.406,0c-1.34,0 -1.61,0.25843 -1.894,1.6413l-1.686,8.19475c-0.284,1.38584 -0.117,1.6413 1.22,1.6413l3.407,0c1.337,0 1.61,-0.25843 1.894,-1.6413l1.683,-8.19475z" fill="#5965e0" id="svg_4"/>
+   <path stroke="null" d="m192.975,22.21656c-0.345,1.53848 -1.179,2.9132 -2.368,3.90504l-4.806,4.11057c-1.152,1.00223 -2.602,1.56594 -4.107,1.59721l-6.655,0l-0.15,0.72525c-0.284,1.38584 -0.119,1.6413 1.221,1.6413l14.398,0l-1.601,7.79534l-16.283,0c-5.542,0 -8.361,-3.70533 -7.183,-9.43664l1.684,-8.19475c1.178,-5.73131 5.521,-9.43378 11.071,-9.43378l7.165,0c5.528,0.01177 8.386,3.52047 7.614,7.29046zm-9.885,2.15508c0.284,-1.38584 0.12,-1.6413 -1.22,-1.6413l-3.407,0c-1.334,-0.00297 -1.618,0.25832 -1.902,1.6413l-0.568,2.82161l5.621,0c0.252,-0.01081 0.494,-0.10642 0.689,-0.27231c0.194,-0.16589 0.331,-0.39294 0.39,-0.64671l0.397,-1.90259z" fill="#5965e0" id="svg_5"/>
+   <path stroke="null" d="m203.583,37.40794c-0.522,2.53976 -2.461,4.59807 -5.393,4.59807c-2.933,0 -4.023,-2.05534 -3.501,-4.59807c0.523,-2.54262 2.462,-4.59499 5.394,-4.59499c2.933,0 4.014,2.05237 3.5,4.59499z" fill="#333333" id="svg_6"/>
+   <path stroke="null" d="m223.829,14.93786l-1.601,7.78951l-3.974,19.2728l-9.434,0l3.975,-19.2728l-4.71,0l1.604,-7.79248l14.14,0.00297zm-7.006,-5.05306c-1.635,-1.87911 -1.136,-5.10299 1.11,-7.19644c2.245,-2.09346 5.394,-2.26375 7.037,-0.3817c1.644,1.88206 1.136,5.10592 -1.11,7.19938c-2.245,2.09346 -5.399,2.2638 -7.037,0.37876z" fill="#5965e0" id="svg_7"/>
+   <path stroke="null" d="m238.972,18.8341l-2.822,13.73229c-0.284,1.38584 -0.119,1.6413 1.218,1.6413l5.868,0l-1.601,7.79534l-7.747,0c-5.542,0 -8.363,-3.70533 -7.185,-9.43664l2.821,-13.73229l-3.568,0l1.601,-7.7954l3.577,0l1.312,-6.38314l9.444,0l-1.311,6.38314l7.426,0l-1.61,7.7954l-7.423,0z" fill="#5965e0" id="svg_8"/>
+   <path stroke="null" d="m23.5088,4.96973l11.9741,0l-9.9614,49.03027l-11.9741,0l9.9614,-49.03027z" fill="#5965e0" id="svg_9"/>
+   <path stroke="null" d="m41.0786,4.96973l11.9741,0l-7.7613,38.41628l-11.9769,0l7.7641,-38.41628z" fill="#5965e0" id="svg_10"/>
+   <path stroke="null" d="m5.76366,4.96973l11.97414,0l-7.7613,38.41628l-11.97699,0l7.76415,-38.41628z" fill="#5965e0" id="svg_11"/>
+   <path stroke="null" d="m169.027,14.93786l-17.496,27.06518l-9.652,0l-6.381,-27.06518l10.336,0l2.779,17.77237l10.078,-17.75764l10.336,-0.01473z" fill="#5965e0" id="svg_12"/>
+  </g>
+  <path fill="#8a51c6" stroke="#000" opacity="NaN" d="m130.81892,23.93127l0.2514,0l0.07768,-0.07856l0.07768,0.07856l0.2514,0l-0.20338,0.04855l0.07769,0.07856l-0.20338,-0.04855l-0.20338,0.04855l0.07769,-0.07856l-0.20338,-0.04855l-0.00002,0z" id="svg_15"/>
+  <polyline fill="none" stroke="#000" opacity="NaN" points="528,327 " id="svg_16" stroke-linecap="round"/>
+  <polyline fill="none" stroke="#000" opacity="NaN" points="557,327 " id="svg_17" stroke-linecap="round"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="519" y1="331" x2="519" y2="331" id="svg_18" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="570" y1="334" x2="570" y2="334" id="svg_19" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="469" y1="281" x2="469" y2="281" id="svg_20" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="491" y1="431" x2="491" y2="431" id="svg_21" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="491" y1="431" x2="491" y2="431" id="svg_22" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="600" y1="273" x2="600" y2="273" id="svg_23" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" opacity="NaN" x1="600" y1="272" x2="600" y2="272" id="svg_24" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <rect fill="#8a51c6" stroke="#000" opacity="NaN" x="495" y="325" width="0" height="0" id="svg_25"/>
+  <path fill="#8a51c6" stroke="#000" opacity="NaN" d="m159.5,178.5" id="svg_26"/>
+  <path id="svg_13" d="m283.5,31.5" opacity="NaN" stroke="#000000" fill="#8a51c6"/>
+  <rect stroke="#000000" id="svg_30" height="42" width="150" y="1.5" x="210.5" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#8a51c6"/>
+  <rect id="svg_32" height="49" width="163.00001" y="1.5" x="208" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#8a51c6" stroke="#000000"/>
+  <rect id="svg_33" height="51.90352" width="155.19501" y="-1.48311" x="206.4025" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#5965e0" stroke="#000000"/>
+  <text font-style="normal" font-weight="bold" transform="matrix(1.7373635853781375,0,0,1.3157634495064867,-223.2139482476327,-26.681116905482025) " xml:space="preserve" text-anchor="start" font-family="monospace" font-size="31" id="svg_36" y="52.28005" x="254.97918" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" fill="#fdfcff" stroke="null" stroke-width="7">BODY</text>
+ </g>
+</svg>
