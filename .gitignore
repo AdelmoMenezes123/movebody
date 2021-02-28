@@ -5,6 +5,11 @@
 # production
 /build
 
+/.next
+
+/next
+
+.next
 # misc
 .DS_Store
 .env.local
