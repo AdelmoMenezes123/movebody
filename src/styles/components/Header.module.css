@@ -1,0 +1,15 @@
+.headerContainer {
+    /* background-color: var(--title); */
+    height: 7rem;
+    margin: 2.5rem 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 3rem auto;
+}
+
+.headerContainer img{
+    width: 100%
+}

@@ -1,7 +1,7 @@
-.ChallengeBoxContainer{
+.ChallengeBoxContainer {
     height: 100%;
 
-    background: var(--white);
+    background: #37435aab;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.07);
     padding: 1.5rem 2rem;
@@ -14,19 +14,19 @@
     text-align: center;
 }
 
-.ChallengeBoxNotActive{
+.ChallengeBoxNotActive {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.ChallengeBoxNotActive strong{
+.ChallengeBoxNotActive strong {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.4;
 }
 
-.ChallengeBoxNotActive p{
+.ChallengeBoxNotActive p {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,52 +35,52 @@
     margin-top: 3rem;
 }
 
-.ChallengeBoxNotActive p img{
+.ChallengeBoxNotActive p img {
     margin-bottom: 1rem;
 }
 
-.ChallengeBoxActive{
+.ChallengeBoxActive {
     height: 100%;
 
     display: flex;
     flex-direction: column;
 }
 
-.ChallengeBoxActive header{
-    color: var(--blue);
+.ChallengeBoxActive header {
+    color: var(--green);
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
     border-bottom: 1px solid var(--gray-line);
 }
 
-.ChallengeBoxActive main{
+.ChallengeBoxActive main {
     flex: 1;
 
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
-.ChallengeBoxActive main strong{
+.ChallengeBoxActive main strong {
     font-weight: 600;
     font-size: 2rem;
-    color: var(--title);
+    color: var(--white);
     margin: 1.5rem 0 1rem;
 }
 
-.ChallengeBoxActive main p{
+.ChallengeBoxActive main p {
     line-height: 1.5;
 }
 
-.ChallengeBoxActive footer{
+.ChallengeBoxActive footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
-.ChallengeBoxActive footer button{
+.ChallengeBoxActive footer button {
     height: 3rem;
 
     display: flex;
@@ -99,13 +99,24 @@
 }
 
 
-.ChallengeBoxActive footer button.ChallengeFailButton{
+.ChallengeBoxActive footer button.ChallengeFailButton {
     background: var(--red);
 }
 
-.ChallengeBoxActive footer button.ChallengeSucceededButton{
+.ChallengeBoxActive footer button.ChallengeSucceededButton {
     background: var(--green);
 }
-.ChallengeBoxActive footer button:hover{
+
+.ChallengeBoxActive footer button:hover {
     filter: brightness(0.9);
+}
+
+@media(max-width:750px) {
+    .ChallengeBoxActive main {
+        margin: 1.2rem 0;
+    }
+
+    .ChallengeBoxContainer{
+        margin-bottom: 2.5rem;
+    }
 }

@@ -33,7 +33,7 @@
 
 .container strong {
     font-size: 2.25rem;
-    color: var(--title);
+    color: var(--text);
 }
 
 .container p {
