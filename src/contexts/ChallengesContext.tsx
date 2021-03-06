@@ -2,6 +2,7 @@ import { createContext, ReactNode, useEffect, useState } from 'react';
 import Cookie from 'js-cookie';
 
 import challegens from '../../challenges.json'
+import { LavelUpModal } from '../components/LavelUpModal';
 
 interface chalenge {
     type: 'body' | 'eye';
@@ -14,6 +15,7 @@ interface ChallengesContextData {
     startNewChallenge: () => void;
     resetChallenge: () => void;
     completeChallenge: () => void;
+    closeLavelupModal: () => void;
     lavel: number;
     experienceToNextLavel: number;
     currentExperience: number;
@@ -37,6 +39,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
     const [challegesCompleted, setChallegesCompleted] = useState(rest.challegesCompleted ?? 0);
 
     const [activeChallenge, setActiveChallenge] = useState(null);
+    const [isLavelOpenModal, setIsLavelOpenModal] = useState(false);
 
     const experienceToNextLavel = Math.pow((lavel + 1) * 4, 2)
 
@@ -53,6 +56,11 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
 
     function lavelup() {
         setLavel(lavel + 1);
+        setIsLavelOpenModal(true);
+    }
+
+    function closeLavelupModal() {
+        setIsLavelOpenModal(false)
     }
 
     function startNewChallenge() {
@@ -103,10 +111,12 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
                 challegesCompleted,
                 activeChallenge,
                 completeChallenge,
-                experienceToNextLavel
+                experienceToNextLavel,
+                closeLavelupModal
             }}>
 
             {children}
+            {isLavelOpenModal && <LavelUpModal />}
         </ChallengesContext.Provider>
 
     )
